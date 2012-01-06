@@ -1,0 +1,24 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<link href="css/index.css" rel="stylesheet" />
+
+		<script src="vendor/jquery/jquery-1.7.1.min.js"></script>
+		<script src="vendor/jquery/jsrender.js"></script>
+
+		<script src="js/slides-data.js"></script>
+
+		<script id="slideTemplate" type="text/x-jquery-tmpl">
+			<img src="{{=imageUrl}}"/>
+			<div>{{=text}}
+			</div>
+		</script>		
+	
+		
+		<script src="js/player.js"></script>
+		<script src="js/index.js"></script>
+		
+		<div id="slideContainer"></div>
+	</body>
+</html>
