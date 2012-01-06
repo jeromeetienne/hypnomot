@@ -6,12 +6,12 @@ jQuery(function(){
 
 	player.renderSlide(0);
 	
-	var beat	= new Hypnomot.Beat();
-	
-	setInterval(function(){
-		console.log("beat", beat.bpm())
-	}, 500)
-	setTimeout(function(){
-		beat.bpm(120);
-	}, 2500)
+	//var beat	= new Hypnomot.Beat();
+	//
+	//setInterval(function(){
+	//	console.log("beat", beat.bpm())
+	//}, 500)
+	//setTimeout(function(){
+	//	beat.bpm(120);
+	//}, 2500)
 })
